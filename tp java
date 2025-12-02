@@ -1,9 +1,20 @@
-package proj2;
-public class test1{
-    public static void main(string[]args){
-        int x=0;
-        system.out println("bonjour");
-        x++;
-         system.out println(args[0]);
-    }
-}
+import static java.lang.IO.println;
+
+public class temps{
+    private int heure;
+    private int minute;
+    private int seconde;
+    public temps(int heure){
+        this.heure = heure;}
+    public temps(int heure, int minute){
+        this.heure = heure;
+        this.minute = minute;
+        public temps(int heure,int minute,int seconde);{
+            this.heure = heure;
+            this.minute = minute;
+            this.seconde = seconde;
+            public void afficher(){
+                system out println("il est"+this.heure+this.minute+this.seconde)}
+            public static void main(string[]args){
+                temps temps1 = new temps(10);
+                t.affiche();
